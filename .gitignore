@@ -1,0 +1,23 @@
+# Fichiers R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Fichiers de session
+*.Rproj
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Fichiers de données volumineux (sauf cadre_tunisie.xlsx)
+*.csv
+*.xlsx
+!cadre_tunisie.xlsx
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de déploiement
+rsconnect/
