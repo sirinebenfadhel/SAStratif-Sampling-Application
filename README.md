@@ -7,6 +7,7 @@ A modern R Shiny application for statistical sampling and survey analysis.
 This application implements two fundamental sampling methods from survey theory:
 
 **1. Simple Random Sampling (SRS) Without Replacement**
+
 * Random selection of sampling units
 
 * Comparative analysis between sample and population
@@ -14,6 +15,7 @@ This application implements two fundamental sampling methods from survey theory:
 * Proportion comparison across modalities
 
 **2. Proportional Allocation Stratified Sampling**
+
 * Stratification by geographic units (Region, Governorate, Delegation)
 
 * Proportional allocation based on population sizes
@@ -22,6 +24,7 @@ This application implements two fundamental sampling methods from survey theory:
 
 
 **Sampling Framework**
+
 * The application uses Tunisia's sampling framework based on:
 
    -Geographic division into homogeneous blocks
@@ -35,7 +38,9 @@ This application implements two fundamental sampling methods from survey theory:
    -Coverage: National territory
 
 **Features**
+
 **Exploratory Analysis**
+
 * Interactive visualizations with Plotly
 
 * Tunisian governorate mapping with Leaflet
@@ -45,6 +50,7 @@ This application implements two fundamental sampling methods from survey theory:
 * Dynamic data tables with filtering capabilities
 
 **Simple Random Sampling (SRS)**
+
 * Input:
 
   -Sample size
@@ -62,6 +68,7 @@ This application implements two fundamental sampling methods from survey theory:
    -Comparative visualization
 
 **Proportional Stratification**
+
 * Input:
 
    -Sample size
@@ -79,6 +86,7 @@ This application implements two fundamental sampling methods from survey theory:
    -Descriptive statistics by stratum
 
 **Export Capabilities**
+
 * Supported formats: Excel, CSV
 
 * Export options: Samples, statistics, allocations, comparative plots
@@ -86,7 +94,9 @@ This application implements two fundamental sampling methods from survey theory:
 * Flexible download based on user selection
 
 **Technical Implementation**
+
 * Architecture
+  
    -Frontend: Shiny + Shinydashboard
 
    -Visualization: Plotly, Leaflet, ggplot2
@@ -96,6 +106,7 @@ This application implements two fundamental sampling methods from survey theory:
    -UI Components: Custom CSS theme with blue gradient design
 
 * Key Algorithms
+  
   -SRS: Base R sample() function without replacement
 
   -Stratification: Proportional allocation with Hamilton method for rounding
@@ -114,6 +125,7 @@ shiny::runApp("SAStratif")
 
 **Installation & Usage**
 * Prerequisites
+  
 R (version 4.0 or higher)
 
 RStudio (recommended)
