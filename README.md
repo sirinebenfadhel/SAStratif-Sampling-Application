@@ -3,6 +3,7 @@
 A modern R Shiny application for statistical sampling and survey analysis.
 
 **Project Overview**
+
 This application implements two fundamental sampling methods from survey theory:
 
 **1. Simple Random Sampling (SRS) Without Replacement**
