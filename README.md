@@ -115,7 +115,7 @@ This application implements two fundamental sampling methods from survey theory:
 
  **How to Run the Application?**
 
-* You can run the Shiny app locally using R:
+You can run the Shiny app locally using R:
 
 * #Install dependencies
   
