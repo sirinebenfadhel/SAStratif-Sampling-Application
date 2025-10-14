@@ -12,102 +12,111 @@ This application implements two fundamental sampling methods from survey theory:
 
 * Proportion comparison across modalities
 
-2. Proportional Allocation Stratified Sampling
-Stratification by geographic units (Region, Governorate, Delegation)
+**2. Proportional Allocation Stratified Sampling**
+* Stratification by geographic units (Region, Governorate, Delegation)
 
-Proportional allocation based on population sizes
+* Proportional allocation based on population sizes
 
-Auxiliary variable integration
+* Auxiliary variable integration
 
-🎯 Academic Context
-Course: Survey Theory
-Year: 2nd Year (2024-2025)
-Institution: Higher School of Statistics and Information Analysis (ESSAI)
-Presentation Date: Monday, May 12, 2025
 
-🗂️ Sampling Framework
-The application uses Tunisia's sampling framework based on:
+**Sampling Framework**
+* The application uses Tunisia's sampling framework based on:
 
-Geographic division into homogeneous blocks
+-Geographic division into homogeneous blocks
 
-Source: National Institute of Statistics (INS) census data
+-Source: National Institute of Statistics (INS) census data
 
-Block characteristics: Small, relatively homogeneous geographic units
+-Block characteristics: Small, relatively homogeneous geographic units
 
-Average size: ~120 households per block
+- Average size: ~120 households per block
 
-Coverage: National territory
+- Coverage: National territory
 
-🚀 Features
-📈 Exploratory Analysis
-Interactive visualizations with Plotly
+**Features**
+**Exploratory Analysis**
+* Interactive visualizations with Plotly
 
-Tunisian governorate mapping with Leaflet
+* Tunisian governorate mapping with Leaflet
 
-Descriptive statistics for all variables
+* Descriptive statistics for all variables
 
-Dynamic data tables with filtering capabilities
+* Dynamic data tables with filtering capabilities
 
-🎲 Simple Random Sampling (SRS)
-Input:
+**Simple Random Sampling (SRS)**
+* Input:
 
-Sample size
+-Sample size
 
-Comparative variable (Region, GOVERNORATE, Area, DELEGATION, Lodging)
+-Comparative variable (Region, GOVERNORATE, Area, DELEGATION, Lodging)
 
-Output:
+* Output:
 
-Random sample
+-Random sample
 
-Descriptive statistics
+-Descriptive statistics
 
-Population-sample proportion comparison
+-Population-sample proportion comparison
 
-Comparative visualization
+-Comparative visualization
 
-🏗️ Proportional Stratification
-Input:
+**Proportional Stratification**
+* Input:
 
-Sample size
+-Sample size
 
-Stratification variable (Region, GOVERNORATE, DELEGATION)
+-Stratification variable (Region, GOVERNORATE, DELEGATION)
 
-Auxiliary variable (Area, optional)
+-Auxiliary variable (Area, optional)
 
-Output:
+* Output:
 
-Allocation table (nh values per stratum)
+-Allocation table (nh values per stratum)
 
-Stratified sample
+-Stratified sample
 
-Descriptive statistics by stratum
+-Descriptive statistics by stratum
 
-💾 Export Capabilities
-Supported formats: Excel, PNG, Text
+**Export Capabilities**
+* Supported formats: Excel, CSV
 
-Export options: Samples, statistics, allocations, comparative plots
+* Export options: Samples, statistics, allocations, comparative plots
 
-Flexible download based on user selection
+* Flexible download based on user selection
 
-🛠️ Technical Implementation
-Architecture
-Frontend: Shiny + Shinydashboard
+**Technical Implementation**
+* Architecture
+-Frontend: Shiny + Shinydashboard
 
-Visualization: Plotly, Leaflet, ggplot2
+-Visualization: Plotly, Leaflet, ggplot2
 
-Data Handling: dplyr, readxl, writexl
+-Data Handling: dplyr, readxl, writexl
 
-UI Components: Custom CSS theme with blue gradient design
+-UI Components: Custom CSS theme with blue gradient design
 
-Key Algorithms
-SRS: Base R sample() function without replacement
+* Key Algorithms
+-SRS: Base R sample() function without replacement
 
-Stratification: Proportional allocation with Hamilton method for rounding
+-Stratification: Proportional allocation with Hamilton method for rounding
 
-Modality grouping: Top 15 most frequent categories, others grouped as "Autres"
+-Modality grouping: Top 15 most frequent categories, others grouped as "Autres" .
 
-📥 Installation & Usage
-Prerequisites
+ **How to Run the Application?**
+
+* You can run the Shiny app locally using R:
+
+* #Install dependencies
+install.packages(c("shiny", "shinydashboard", "dplyr", "ggplot2"))
+
+* #Launch the app
+shiny::runApp("SAStratif")
+
+**Installation & Usage**
+* Prerequisites
 R (version 4.0 or higher)
 
 RStudio (recommended)
+
+ **License**
+This project is shared for academic purposes. Usage, modification, and redistribution require authorization.
+See License .
