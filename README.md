@@ -118,12 +118,15 @@ This application implements two fundamental sampling methods from survey theory:
 * You can run the Shiny app locally using R:
 
 * #Install dependencies
+  
 install.packages(c("shiny", "shinydashboard", "dplyr", "ggplot2"))
 
 * #Launch the app
+  
 shiny::runApp("SAStratif")
 
 **Installation & Usage**
+
 * Prerequisites
   
 R (version 4.0 or higher)
@@ -131,5 +134,6 @@ R (version 4.0 or higher)
 RStudio (recommended)
 
  **License**
+ 
 This project is shared for academic purposes. Usage, modification, and redistribution require authorization.
 See License .
