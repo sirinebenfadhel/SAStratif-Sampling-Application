@@ -8,13 +8,6 @@ A demonstration video is available to see the application in action:
 
 📹 **[AppSondageDemo.mp4](AppSondageDemo.mp4)** - Full application walkthrough (upload the video to see it)
 
-### What the demo shows:
-- Data import and preview
-- Exploratory analysis with interactive visualizations
-- Simple Random Sampling (SRS) execution
-- Proportional stratification with allocation tables
-- Export functionality and results download
-
 *File size: [24Mo]*
 *Duration: [2min12s]*
 
