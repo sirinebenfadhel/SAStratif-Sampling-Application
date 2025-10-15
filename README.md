@@ -1,6 +1,7 @@
 # SAStratif-Statistical-Sampling-Application
 
 A modern R Shiny application for statistical sampling and survey analysis.
+
 **Demo Video**
 
 A demonstration video is available to see the application in action:
